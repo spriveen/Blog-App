@@ -11,6 +11,14 @@ const Header = () => {
          Get Started <Image src={assets.arrow} />
         </button>
      </div>
+     <div className='text-center my-8'>
+      <h1 className='text-3xl sm:text-5xl font-medium'> Latest Blogs</h1>
+      <p className='mt-10 max-w-[740px] m-auto text-xs sm:text-base'>The Latest Blogs section showcases recent articles in a clean, user-friendly layout. Featuring a responsive design, it adapts seamlessly to various devices, ensuring readability.</p>
+      <form className='flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 border border-black' action="">
+         <input type='email' placeholder='Enter your email' className='pl-4 outline-none' />
+         <button className='border-1 border-black py-4 px-4 sm:px-8 active:'>Suscribe</button>
+      </form>
+     </div>
     </div>
   )
 }
